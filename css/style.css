@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    margin: 2rem auto; 
+}
+.site_header{
+    background-color: #E579E6;
+    height: 140px;
+}
+.preview{
+    background-color: #E1D67A;
+    height: 500px;
+    margin:30px 0;
+}
+.main_header{
+    height: 85px;
+    background-color: #ABCFE7;
+}
+.other_articles{
+    background-color:#0386FF ;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.miniature{
+    height: 540px;
+    background-color: #ABCFE7;
+    margin: 30px 0;
+    float: left;
+}
+aside{
+    width: 20%;
+}
+.center{
+    width: 56%;
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: auto;
+}
+footer{
+    height: 60px;
+    background-color: #8801FE;
+    margin:30px 0;
+}
