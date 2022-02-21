@@ -6,11 +6,35 @@
 body{
     width: 1200px;
     margin: 2rem auto; 
+    font-family: Arial, Helvetica, sans-serif;
 }
-.site_header{
-    background-color: #E579E6;
+.site_header{  
     height: 140px;
+    position: relative;
 }
+#logo{
+    height: 71px ;
+    border-right-color: #bababa83;
+    border-right-width: 1px;
+    border-right-style: solid;
+    padding-right: 10px;
+}
+ul{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+li{
+    display: inline;
+    color: #BABABA;
+    
+}
+
+
+
+
+
+
 .preview{
     background-color: #E1D67A;
     height: 500px;
