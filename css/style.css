@@ -63,9 +63,13 @@ h1{
     color: #BABABA;
 }
 .snd-section-imgs{
-    height: 40%;
+    height: 30%;
     object-fit: cover;
     opacity: 0.8;
+    filter: brightness(85%);
+}
+#programmer{
+    object-position: 0 35%;
 }
 .clearfix::after{
     content: "";
@@ -82,7 +86,7 @@ aside{
     width: 20%;
 }
 .main_text{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 20px;
 }
 .center{
@@ -96,4 +100,5 @@ footer{
     height: 60px;
     margin:30px 0;
     text-align: center;
+    font-size: larger;
 }
